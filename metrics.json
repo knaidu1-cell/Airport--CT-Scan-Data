@@ -1,0 +1,53 @@
+{
+    "accuracy": 0.6398104265402843,
+    "classification_report": {
+        "NotThreats": {
+            "precision": 0.9230769230769231,
+            "recall": 0.24489795918367346,
+            "f1-score": 0.3870967741935484,
+            "support": 98.0
+        },
+        "HighLow": {
+            "precision": 0.4461538461538462,
+            "recall": 0.9666666666666667,
+            "f1-score": 0.6105263157894737,
+            "support": 60.0
+        },
+        "ThreatsRGB": {
+            "precision": 0.9636363636363636,
+            "recall": 1.0,
+            "f1-score": 0.9814814814814815,
+            "support": 53.0
+        },
+        "accuracy": 0.6398104265402843,
+        "macro avg": {
+            "precision": 0.7776223776223775,
+            "recall": 0.73718820861678,
+            "f1-score": 0.6597015238215013,
+            "support": 211.0
+        },
+        "weighted avg": {
+            "precision": 0.797646902860173,
+            "recall": 0.6398104265402843,
+            "f1-score": 0.5999316651035768,
+            "support": 211.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            24,
+            72,
+            2
+        ],
+        [
+            2,
+            58,
+            0
+        ],
+        [
+            0,
+            0,
+            53
+        ]
+    ]
+}
